@@ -2,6 +2,10 @@
 
 /*sentencias if  comparacion ejecuta la instruccion
  si si no else
+ //if comparar 
+ //=== es igual a
+
+
 
 var nombre ='pablo';
 var estadocivil = "soltero";
@@ -14,8 +18,11 @@ if (estadocivil === "casado"){
 
 
 /********************************************************************************* */ 
-/*sentencias Condicionales logicas*/
-
+/*sentencias Condicionales logicas
+AND && TRUE si todo ers tru
+|| OR  true si uno es true
+! NOT invierte tru/false
+*/
 /*
 var name = 'jose';
 var edad  = '6';
@@ -68,7 +75,10 @@ switch(mes){
 /****************************   BUCLES  SON 3  ******************************************************************* */
 
 /*SENTENCIAS repetitiva BUCLES repetir codigos "escribe los numeros del  1 al 10" */
-/*EJEMPLO PAGAR EL SUELDO DE MUCHOS TRABAJADORES  */
+/*EJEMPLO PAGAR EL SUELDO DE MUCHOS TRABAJADORES  
+se ocupa en arreglos, for dfine una varieble (var i =0; condicion i <=11; iteracion i++)
+
+*/
 
 /*sentencia FOR */
 /*
@@ -79,6 +89,7 @@ for (var i = 1; i < 11;i++ ){
 */
 //************************************************************************************************ 
 //SENTENCIA WHILE  
+//sintasis de while 
 /*
 var i = 1;
 
@@ -108,7 +119,7 @@ do{
 var edad;
 
 if(edad){
-    console.log("variable esta definifaf");
+    console.log("variable esta definida");
 }else{
     console.log('variable no definida');
 }
@@ -126,7 +137,7 @@ if(edad){
 
 
 var promediopablo = (14 + 8 + 16 )/3;
-var promediomaria = (12 + 18 + 10)/3 ;
+var promediomaria = (12 + 18 + 10)/3;
 
 //promedio superior
 if (promediopablo > promediomaria){
